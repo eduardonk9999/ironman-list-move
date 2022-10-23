@@ -2,7 +2,7 @@ import { ApolloServer, gql } from "apollo-server";
 
 const typeDefs = gql`
   type Armor {
-    id: String!
+    img: String!
     armor: String!
   }
 
@@ -12,11 +12,16 @@ const typeDefs = gql`
 `;
 
 interface Armor {
-  id: string
-  name: string
+  img: string
+  armor: string
 }
 
-const armors: Armor[] = [];
+const armors: Armor[] = [
+  {
+    img: 'https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/f/fb/Iron_Man_Armor_-_Mark_I.png/revision/latest?cb=20181116150929',
+    armor: 'markOne'
+  }
+];
 
 const server = new ApolloServer({
   typeDefs,
