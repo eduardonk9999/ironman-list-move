@@ -7,7 +7,7 @@
 - `API em GraphQL`: Lista de Armaduras com nome e imagem.
 - `Front-End - React JS`: Consumindo API com React JS
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Tecnologias utilizadas
 - ``React Js``
 - ``GraphQL``
 - ``Apollo``
