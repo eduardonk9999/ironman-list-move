@@ -16,7 +16,7 @@
 BackEnd
 - cd backend
 - <p># npm i</p>
-- <p> # npm run dev</p>
+- <p> # npm run dev:simple</p>
 
 Front End
 - cd frontend
