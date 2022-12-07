@@ -1,6 +1,5 @@
 <img src="https://github.com/eduardonk9999/ironman-list-move/blob/master/ironLogo.png"/>
 
-## :construction: Projeto em construção :construction:
 
 ## :hammer: Funcionalidades do projeto
 
@@ -13,5 +12,14 @@
 - ``Apollo``
 
 
-## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/eduardonk9999/ironman-list-move).
+## 📁 Como rodar o Projeto?
+BackEnd
+- cd backend
+- <p># npm i</p>
+- <p> # npm run dev</p>
+
+Front End
+- cd frontend
+- <p># npm i</p>
+- <p> # npm run dev</p>
+
